@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:jukebox"
+        }
+    ],
+    "results": [
+        {
+            "item": "additionaladditions:pocket_jukebox"
+        }
+    ]
+}

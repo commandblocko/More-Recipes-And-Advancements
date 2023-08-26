@@ -1,0 +1,28 @@
+{
+    "parent":"more_recipes_and_advancements:advancements/wooden_pickaxe",
+    "display": {
+        "title": "“热”门话题",
+        "description": "用八个圆石来制作一个熔炉",
+        "icon": {
+            "item":"minecraft:furnace"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "frame":"task",
+        "hidden":true
+    },
+    "criteria": {
+        "get_furnace":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items":[
+                    {
+                        "items": [
+                            "minecraft:furnace"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

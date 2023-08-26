@@ -1,0 +1,9 @@
+{
+    "type": "blasting",
+    "ingredient": {
+        "item": "minecraft:black_wool"
+    },
+    "cookingtime": 100,
+    "experience": 5,
+    "result": "minecraft:black_dye"
+}

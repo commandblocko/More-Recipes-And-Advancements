@@ -1,0 +1,29 @@
+{
+    "parent":"more_recipes_and_advancements:create/auto_building",
+    "display": {
+        "title":"代 工 厂",
+        "description":"用许多蓝图加农炮来为你建造建筑！",
+        "icon":{
+            "item":"create:schematicannon"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "schematicannon":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:schematicannon"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

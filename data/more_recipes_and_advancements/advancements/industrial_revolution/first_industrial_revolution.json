@@ -1,0 +1,31 @@
+{
+    "parent":"more_recipes_and_advancements:root",
+    "display": {
+        "title": "第一次工业革命",
+        "description": "蒸汽机是第一次工业革命的标志",
+        "icon":{
+            "item": "create:steam_engine"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "steam_engine":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:steam_engine"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["steam_engine"]
+    ]
+}

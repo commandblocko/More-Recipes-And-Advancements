@@ -1,0 +1,9 @@
+{
+    "type": "blasting",
+    "ingredient": {
+        "item": "minecraft:light_gray_wool"
+    },
+    "cookingtime": 100,
+    "experience": 5,
+    "result": "minecraft:light_gray_dye"
+}

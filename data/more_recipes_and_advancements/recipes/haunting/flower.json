@@ -1,0 +1,62 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_bush"
+        }
+    ],
+    "results": [
+        {
+            "chance": 0.13,
+            "item": "minecraft:dandelion"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:poppy"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:blue_orchid"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:allium"
+            },
+            {
+            "chance": 0.13,
+            "item":  "minecraft:azure_bluet"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:red_tulip"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:orange_tulip"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:white_tulip"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:pink_tulip"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:oxeye_daisy"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:cornflower"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:lily_of_the_valley"
+            },
+            {
+            "chance": 0.13,
+            "item": "minecraft:wither_rose"
+            }
+    ]
+}

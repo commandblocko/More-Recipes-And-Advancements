@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:red_mushroom"
+      },
+      "title": "红伞伞，白杆杆",
+      "description": "红伞伞，白杆杆，吃完一起躺板板",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+      "red_mushroom": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:red_mushroom"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

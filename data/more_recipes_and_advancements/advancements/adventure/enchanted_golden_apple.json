@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "title": "附 魔 金！",
+      "description": "获得附魔金苹果",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "enchanted_golden_apple": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:enchanted_golden_apple"
+                ]
+              }
+            ]
+          }
+        }
+      }
+}

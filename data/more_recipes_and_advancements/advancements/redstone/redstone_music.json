@@ -1,0 +1,28 @@
+{
+    "parent": "more_recipes_and_advancements:redstone/redstone",
+    "display": {
+      "icon": {
+        "item": "minecraft:note_block"
+      },
+      "title": "红石音乐",
+      "description": "红石也可以具有艺术气息",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "redstone_music": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:note_block"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }

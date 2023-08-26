@@ -1,0 +1,21 @@
+{
+    "type":"crafting_shaped",
+    "pattern": [
+        "123"
+    ],
+    "key": {
+        "1":{
+            "item": "minecraft:note_block"
+        },
+        "2":{
+            "item": "minecraft:comparator"
+        },
+        "3":{
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_sensor",
+        "count": 2
+    }        
+}

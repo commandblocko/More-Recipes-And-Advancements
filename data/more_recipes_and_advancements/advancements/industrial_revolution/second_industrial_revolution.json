@@ -1,0 +1,31 @@
+{
+    "parent":"more_recipes_and_advancements:industrial_revolution/first_industrial_revolution",
+    "display": {
+        "title": "第二次工业革命",
+        "description": "电力是第二次工业革命的标志",
+        "icon":{
+            "item": "createaddition:accumulator"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "alternator":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "createaddition:alternator"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["alternator"]
+    ]
+}

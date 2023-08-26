@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "tag": "more_recipes_and_advancements:plants"
+    },
+    "cookingtime": 500,
+    "experience": -1,
+    "result": "minecraft:dead_bush"
+}

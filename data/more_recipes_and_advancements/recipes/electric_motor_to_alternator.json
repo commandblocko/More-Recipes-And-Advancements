@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createaddition:electric_motor"
+        }
+    ],
+    "result": {
+        "item": "createaddition:alternator"
+    }
+}

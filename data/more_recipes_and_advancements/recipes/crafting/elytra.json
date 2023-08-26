@@ -1,0 +1,27 @@
+{
+    "type":"crafting_shaped",
+    "pattern": [
+        "414",
+        "323",
+        "313"
+        
+    ],
+    "key": {
+        "2":{
+            "item": "minecraft:diamond_chestplate"
+        },
+        "1":{
+            "item": "minecraft:shulker_shell"
+        },
+        "3":{
+            "item": "minecraft:diamond"
+        },
+        "4":{
+            "item": "minecraft:firework_rocket"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }        
+}

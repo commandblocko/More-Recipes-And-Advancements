@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:cobblestone"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:gravel"
+        }
+    ]
+}

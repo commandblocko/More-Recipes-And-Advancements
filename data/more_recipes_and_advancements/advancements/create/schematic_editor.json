@@ -1,0 +1,28 @@
+{
+    "parent":"more_recipes_and_advancements:advancements/get_wood",
+    "display": {
+        "title":"设计师！",
+        "description":"将漂亮的建筑“画”在蓝图上！",
+        "icon": {
+            "item": "create:schematic_table"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "schematic_table":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:schematic_table"    
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parent":"more_recipes_and_advancements:create/schematic_editor",
+    "display": {
+        "title":"自动建造！",
+        "description":"用蓝图加农炮来自动化建筑吧！",
+        "icon":{
+            "item":"create:schematicannon"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "schematicannon":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:schematicannon"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

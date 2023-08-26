@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title":"更多配方和进度！",
+        "description":"让更多配方和进度(成就)来丰富你的世界吧！",
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background":"minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}

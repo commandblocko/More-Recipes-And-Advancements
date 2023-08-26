@@ -1,0 +1,103 @@
+{
+  "parent":"more_recipes_and_advancements:root",
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "title": "获得木头",
+      "description": "要致富，先撸树",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "oak": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_log"
+              ]
+            }
+          ]
+        }
+      },
+      "spruce": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:spruce_log"
+              ]
+            }
+          ]
+        }
+      },
+      "birch": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:birch_log"
+              ]
+            }
+          ]
+        }
+      },
+      "jungle": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:jungle_log"
+              ]
+            }
+          ]
+        }
+      },
+      "acacia": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:acacia_log"
+              ]
+            }
+          ]
+        }
+      },
+      "dark": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:dark_oak_log"
+              ]
+            }
+          ]
+        }
+      },
+      "mangrove": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:mangrove_log"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      ["oak","spruce","birch","jungle","acacia","dark","mangrove"]
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "create:empty_blaze_burner"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:blaze_burner"
+        }
+    ]
+}

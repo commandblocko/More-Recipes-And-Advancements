@@ -1,0 +1,9 @@
+{
+    "type": "blasting",
+    "ingredient": {
+        "item": "minecraft:magenta_wool"
+    },
+    "cookingtime": 100,
+    "experience": 5,
+    "result": "minecraft:magenta_dye"
+}

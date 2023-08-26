@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "title": "望远镜",
+        "description": "尝试用它观察一下生物，有惊喜哦！",
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "spyglass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:spyglass"
+                    ]
+                  }
+                ]
+            }
+        }
+    }
+}

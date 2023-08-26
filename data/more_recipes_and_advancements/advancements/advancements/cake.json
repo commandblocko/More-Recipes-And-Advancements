@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:cake"
+      },
+      "title": {
+        "translate": "蛋糕是个谎言"
+      },
+      "description": "使用这些原材料烘焙蛋糕：小麦、糖、牛奶和鸡蛋。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+      "cake": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cake"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

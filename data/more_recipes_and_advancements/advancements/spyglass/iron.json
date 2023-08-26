@@ -1,0 +1,40 @@
+{
+    "parent": "more_recipes_and_advancements:spyglass/spyglass",
+    "display": {
+      "icon": {
+        "item": "minecraft:spyglass"
+      },
+      "title": "那是铁锭吗？",
+      "description": "铁傀儡+村民*3+掠夺者/僵尸=刷铁机",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+   "criteria": {
+    "spyglass_at_iron_golem": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:iron_golem"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  }
+}

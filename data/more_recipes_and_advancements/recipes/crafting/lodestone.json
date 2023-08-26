@@ -1,0 +1,24 @@
+{
+    "type":"crafting_shaped",
+    "pattern": [
+        "311",
+        "121",
+        "111"
+        
+    ],
+    "key": {
+        "2":{
+            "item": "minecraft:iron_block"
+        },
+        "1":{
+            "item": "minecraft:redstone"
+        },
+        "3":{
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:lodestone",
+        "count": 1
+    }        
+}

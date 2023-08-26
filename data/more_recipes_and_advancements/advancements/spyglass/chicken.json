@@ -1,0 +1,40 @@
+{
+    "parent": "more_recipes_and_advancements:spyglass/spyglass",
+    "display": {
+      "icon": {
+        "item": "minecraft:spyglass"
+      },
+      "title": "那是只因吗?",
+      "description": "用望远镜近距离观察鸡",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "spyglass_at_chicken": {
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "looking_at": {
+                    "type": "minecraft:chicken"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      }
+    }
+}

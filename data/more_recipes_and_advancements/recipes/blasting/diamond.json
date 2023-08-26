@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:emerald"
+    },
+    "cookingtime": 500,
+    "experience": -5,
+    "result": "minecraft:diamond"
+}

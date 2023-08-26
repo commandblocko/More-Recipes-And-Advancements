@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_chicken"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "additionaladditions:chicken_nugget"
+  }
+}
